@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kazuki Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#hoa">HOAs</a></li>
+          <li><a href="#exam">EXAMs</a></li>
+          <li><a href="#learnings">Learnings</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kazuki Ogata</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Kazuki profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kazuki Ogata</h1>
+        <p class="section__text__p2">A System Administration Student</p>
+        <div class="btn-container">
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/kazzzuki'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know me More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/bout me.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Course</h3>
+              <p>Track Elective <br />System Administration</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>3rd Year <br />Computer Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="text-align: justify">
+              Hi! I'm Kazuki Apin Ogata, 20 years old, living in San Mateo, Rizal, Philippines.
+              I'm currently a 3rd-year computer engineering student at Technological Institute of the Philippines-Quezon City. 
+              This website is for my school stuff, specifically for CPE 232 - Managing Enterprise Servers. 
+              It's like my online portfolio where I'll share what I do in that class.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+      />
+
+      <style>
+        #hoa {
+          margin-bottom: 1300px;
+        }
+      </style>
+
+    <section id="hoa">
+      <p class="section__text__p1">PRELIM - MIDTERM - FINAL</p>
+      <h1 class="title">Hands-on-Activities</h1>
+      <div class="experience-details-container">
+
+      <div class="about-containers">
+        <!-- HOA 1 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA1p1_Ogata.pdf'">
+              HOA 1
+            </button>
+          </div>
+        </div>
+        <!-- HOA 2 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA2p1_Ogata.pdf'">
+              HOA 2
+            </button>
+          </div>
+        </div>
+        <!-- HOA 3 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA3p1_Ogata.pdf'">
+              HOA 3
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-containers">
+        <!-- HOA 4 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa4.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA4p1_Ogata.pdf'">
+              HOA 4
+            </button>
+          </div>
+        </div>
+        <!-- HOA 5 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa5.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA5p1_Ogata.pdf'">
+              HOA 5
+            </button>
+          </div>
+        </div>
+        <!-- HOA 6 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa6.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA6p1_Ogata.pdf'">
+              HOA 6
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-containers">
+        <!-- HOA 7 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa7.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA7p1_Ogata.pdf'">
+              HOA 7
+            </button>
+          </div>
+        </div>
+        <!-- HOA 8 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa8.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA8p1_Ogata.pdf'">
+              HOA 8
+            </button>
+          </div>
+        </div>
+        <!-- HOA 9 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa9.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA9p1_Ogata.pdf'">
+              HOA 9
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-containers">
+        <!-- HOA 10 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa10.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA10p1_Ogata.pdf'">
+              HOA 10
+            </button>
+          </div>
+        </div>
+        <!-- HOA 11 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa11.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA11p1_Ogata.pdf'">
+              HOA 11
+            </button>
+          </div>
+        </div>
+        <!-- HOA 12 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa12.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA12p1_Ogata.pdf'">
+              HOA 12
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-containers">
+        <!-- HOA 13 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa13.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA13p1_Ogata.pdf'">
+              HOA 13
+            </button>
+          </div>
+        </div>
+        <!-- HOA 14 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa14.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA14p1_Ogata.pdf'">
+              HOA 14
+            </button>
+          </div>
+        </div>
+        <!-- HOA 15 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hoa15.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title"> </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_HOA15p1_Ogata.pdf'">
+              HOA 15
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="exam">
+  <p class="section__text__p1">PRELIM - MIDTERM</p>
+  <h1 class="title">Examinations</h1>
+  <div class="experience-details-container">
+
+    <div class="about-containers">
+      <!-- PRELIM EXAM -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/pe.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title"> </h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_PrelimExam_Ogata.pdf'">
+            PRELIM EXAM
+          </button>
+        </div>
+      </div>
+      <!-- MIDTERM EXAM -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/me.png" alt="Project 5" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title"> </h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='./hoa/CPE232_MidtermExam_Ogata.pdf'">
+            MIDTERM EXAM
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="learnings">
+      <p class="section__text__p1">-CONCLUSION-</p>
+      <h1 class="title">Learnings and Reflections</h1>
+      <div class="experience-details-container">
+        <p style="text-align: justify">
+          Throughout my journey in CPE232 - Managing Enterprise Servers, I’ve learned a lot and gained new knowledge about the different topics discussed in this course. Starting with the exploration of DevOps, this course helped me understand the concept of this software. It is the combination of practices and tools that are designed to improve and increase the organization’s ability to serve applications and different services faster than the other traditional software development processes. 
+          <br><br>
+          The modules on SSH-key-based authentication and the installation of SSH server on CentOS are both new to me; we did not do that in Track Elective 1. With These topics retained in my mind, I understand its concept and importance about securing server access and server setup. Now, with Ansible, this tool was introduced in Module 4. I learned and observed that this tool is very powerful in terms of automating tasks and optimizing scalability. Also, the creation of roles in Ansible, provides an approach to target server configuration, enhancing efficiency and maintainability. 
+          <br><br>
+          The containerization concept and the Docker in Module 11 gives me an understanding of its efficiency and portability in different containerized environments. I also learned to build applications using this concept and it is very ideal in deployment processes. This course also taught me about the different cloud services, particularly OpenStack. I learned about the scalable and flexible services offered by OpenStack for cloud infrastructure.
+          <br><br>
+          In conclusion, CPE232 has been a fun exploration, from the fundamental concepts to different advanced cloud services, and providing a well-rounded skills set in system administration. The hands-on-activities  enhanced my knowledge about the topics per module and especially in real-world scenarios. My most memorable experience in this course is when I encountered an error that I encountered for the first time because troubleshooting really helps me understand the topic even more compared to not encountering any error because I know that encountering these errors will help me in the future since I already know how to solve them. 
+          <br><br>
+          Overall, this course has been fun, although we were not able to use the new classroom and PCs. 
+          <br><br>
+          Thank you po, sir Roman!
+          <br><br>
+        </p>
+      </div>
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
